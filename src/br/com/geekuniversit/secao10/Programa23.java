@@ -1,4 +1,4 @@
-package br.com.geekuniversit.secao01;
+package br.com.geekuniversit.secao10;
 //Pacotes
 
 /* Pacotes servem para organizar códigos fonte do projeto;
