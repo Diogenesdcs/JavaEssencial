@@ -9,7 +9,7 @@ public class Programa25 {
         Conta conta_maria = new Conta(1, 300.0f, 500.0f, maria);
 
         System.out.println("Saldo do João: " + conta_joao.getsaldo());
-        System.out.println("Saldo do Maria: " + conta_maria.getsaldo());
+        System.out.println("Saldo da Maria: " + conta_maria.getsaldo());
 
         conta_joao.sacar(300);
         System.out.println("Saldo do João: (Depois do saque)" + conta_joao.getsaldo());

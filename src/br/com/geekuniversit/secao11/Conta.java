@@ -2,10 +2,10 @@ package br.com.geekuniversit.secao11;
 
     //classe
     public class Conta {
-        int numero;
+        private int numero;
         private float saldo; //variavel privada
         private float limite;
-        Cliente cliente; //como é uma classe criada então podemos  utilizar como parametro de outra classe.
+        private Cliente cliente; //como é uma classe criada então podemos  utilizar como parametro de outra classe.
 
         //construtor
         public Conta(int numero, float saldo, float limite, Cliente cliente) {
