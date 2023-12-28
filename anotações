@@ -1,0 +1,15 @@
+Para criar um método main digite: psvm e pressione tab.
+Para criar um System.out.println() digite: sout e pressione tab.
+Para criar um System.err.println() digite: serr e pressione tab.
+Para apagar uma linha inteira: Ctrl + Y.
+Para Duplicar uma linha: Ctrl + D.
+Para mover uma linha: Alt + Shift + Seta (Cima ou Baixo).
+Busca Rápida de Classes: Ctrl + N.
+Identar Corretamente o Código: Ctrl + Alt + L.
+Corrigir Importações Fora de Ordem ou Não utilizadas: Ctrl + Alt + O.
+Renomear Classes, variáveis, métodos, etc: Shift + F6.
+Navegar para um determinada linha: Ctrl + G.
+Gerar shortcut: Alt + Insert.
+Intention Actions: Alt + Enter.
+Mostrar Parâmetros de um Método: Ctrl + P.
+Ocultar a Árvore do Projeto e Ampliar a Área de Digitação: Alt + 1.
