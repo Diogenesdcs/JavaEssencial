@@ -5,6 +5,7 @@ Para apagar uma linha inteira: Ctrl + Y.
 Para Duplicar uma linha: Ctrl + D.
 Para mover uma linha: Alt + Shift + Seta (Cima ou Baixo).
 Busca Rápida de Classes: Ctrl + N.
+Busca Rápida : Ctrl + shift + f
 Identar Corretamente o Código: Ctrl + Alt + L.
 Corrigir Importações Fora de Ordem ou Não utilizadas: Ctrl + Alt + O.
 Renomear Classes, variáveis, métodos, etc: Shift + F6.
