@@ -27,3 +27,5 @@ public class Cliente {
         return endereco;
     }
 }
+
+//protected modificador de acesso.
