@@ -15,6 +15,10 @@ package br.com.geekuniversit.secao12;
             this.ano_nascimento = ano_nascimento;
             this.email = email;;
         }
+        //overloading
+        public Pessoa(){
+
+        }
 
         //métodos publicos da classe porque as propriedades estão como private e para usar essas variaveis precisamos dos
         // métodos Get e Set.
@@ -35,4 +39,15 @@ package br.com.geekuniversit.secao12;
         public void setAno_nascimento(int ano_nascimento) {
             this.ano_nascimento = ano_nascimento;
         }
+
+
+        //overloading
+        public void mensagem() {
+            System.out.println("Esta é a minha mensagem");
+        }
+
+        public void mensagem(String msg) {
+
+        }
+
     }
