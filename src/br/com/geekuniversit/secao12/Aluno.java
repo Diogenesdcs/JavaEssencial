@@ -22,4 +22,10 @@ public class Aluno extends Pessoa{
         this.ra = ra;
     }
 
+
+    //método abstract herdado da classe pessoa obrigatoriamente.
+    @Override
+    public void outra_mensagem(String texto) {
+
+    }
 }

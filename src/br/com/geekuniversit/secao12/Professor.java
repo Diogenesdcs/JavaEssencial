@@ -16,6 +16,12 @@ public class Professor extends Pessoa{
     public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
+
+    //método abstract herdado da classe pessoa obrigatoriamente.
+    @Override
+    public void outra_mensagem(String texto) {
+
+    }
 }
 
 
