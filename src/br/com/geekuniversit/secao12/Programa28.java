@@ -3,7 +3,12 @@ package br.com.geekuniversit.secao12;
 //Herança
 public class Programa28 {
     public static void main(String[] args) {
-        Pessoa p1 = new Pessoa("Pedro da silva",2023,"Pedro@.com");
+        Pessoa p1 = new Pessoa("Pedro da silva", 2023, "Pedro@.com") {
+            @Override
+            public void outra_mensagem(String texto) {
+
+            }
+        };
         System.out.println(p1.getNome());
 
         Aluno a1 = new Aluno("Patricia da silva", 2023, "10", "Patricia@.com");
