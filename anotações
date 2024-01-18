@@ -14,3 +14,6 @@ Gerar shortcut: Alt + Insert.
 Intention Actions: Alt + Enter.
 Mostrar Parâmetros de um Método: Ctrl + P.
 Ocultar a Árvore do Projeto e Ampliar a Área de Digitação: Alt + 1.
+Como gerar construtores no IntelliJ?
+Gerar construtores de tipo
+Como gerar construtor Selecione Constructor no menu pop-up Generate e depois selecione os campos.
