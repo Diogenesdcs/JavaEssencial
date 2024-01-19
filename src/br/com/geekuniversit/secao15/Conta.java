@@ -20,4 +20,9 @@ public class Conta {
     public String getCliente() {
         return this.cliente;
     }
+
+    //metodo estático.
+    public static int proximaConta() {
+        return Conta.contador;
+    }
 }
