@@ -1,4 +1,4 @@
-package br.com.geekuniversit.secao15;
+package br.com.geekuniversit.secao16;
 //Tratando excessões com try/catch
 
 /*
@@ -27,6 +27,8 @@ public class programa36 {
                 System.out.println(numeros[i]);
             }catch(ArrayIndexOutOfBoundsException e){
                 System.out.println("Você esta tentando acessar uma posição do array que não existe");
+            }finally {
+                System.out.println("Continua o processo...");
             }
         }
     }

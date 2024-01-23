@@ -1,4 +1,4 @@
-package br.com.geekuniversit.secao15;
+package br.com.geekuniversit.secao16;
 
 import java.util.Scanner;
 
