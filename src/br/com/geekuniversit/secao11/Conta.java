@@ -20,6 +20,7 @@ package br.com.geekuniversit.secao11;
         public void sacar(float valor) {
             if (valor <= this.saldo) {
                 this.saldo = this.saldo - valor;
+                System.out.println("Saque realizado com sucesso.");
                 //saldo é igual  a saldo mas o limite.
             } else if (valor <= (this.saldo + this.limite)) {
 
@@ -29,6 +30,7 @@ package br.com.geekuniversit.secao11;
             }
             val_ret = this.limite + val_ret;
             this.limite = val_ret;
+                System.out.println("Saque realizado com sucesso.");
         }else {
             System.out.println("Saldo insuficiente");
         }

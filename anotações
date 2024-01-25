@@ -17,3 +17,4 @@ Ocultar a Árvore do Projeto e Ampliar a Área de Digitação: Alt + 1.
 Como gerar construtores no IntelliJ?
 Gerar construtores de tipo
 Como gerar construtor Selecione Constructor no menu pop-up Generate e depois selecione os campos.
+Executar arquivo JAR: Jar -jar nome do arquivo.

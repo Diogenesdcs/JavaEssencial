@@ -10,7 +10,7 @@ public class Cliente {
         this.endereco=  endereco;
 
         //só pode ser executado dentro da  classe por conta do metodo estar private.
-        this.dizer_oi();
+      //  this.dizer_oi();
     }
 
     //metodos dizer oi private
