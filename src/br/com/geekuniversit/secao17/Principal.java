@@ -79,7 +79,3 @@ public class Principal {
     }
 }
 
-/*
-comando para criar um arquivo .jar
-java -jar e o arquivo.
- */
