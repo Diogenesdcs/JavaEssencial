@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaEssencial:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaEssencial_jar</output-path>
+    <root id="archive" name="JavaEssencial.jar">
+      <element id="module-output" name="JavaEssencial" />
+    </root>
+  </artifact>
+</component>
