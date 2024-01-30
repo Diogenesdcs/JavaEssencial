@@ -15,6 +15,10 @@ package br.com.geekuniversit.secao11;
             this.cliente = cliente;
         }
 
+        /**
+         *
+         * @param valor Função sacar
+         */
         //métodos da classe
         //void nome_da_função (declaração_de_parâmetros);
         public void sacar(float valor) {
@@ -35,12 +39,20 @@ package br.com.geekuniversit.secao11;
             System.out.println("Saldo insuficiente");
         }
     }
-
+        //Javadocs
+        /**
+         *
+         * @param valor a ser depositado
+         */
     public void depositar( float valor){
         this.saldo = this.saldo + valor;
         }
 
-        //Método getter do atributo Saldo
+        //Javadocs
+        /**
+         *
+         * @return método Getter do atributo saldo
+         */
     public float getsaldo() {
         return this.saldo + this.limite;
         }
