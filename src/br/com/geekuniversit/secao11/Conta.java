@@ -15,8 +15,11 @@ package br.com.geekuniversit.secao11;
             this.cliente = cliente;
         }
 
+        public Conta() {
+
+        }
+
         /**
-         *
          * @param valor Função sacar
          */
         //métodos da classe
@@ -29,31 +32,43 @@ package br.com.geekuniversit.secao11;
             } else if (valor <= (this.saldo + this.limite)) {
 
                 float val_ret = this.saldo - valor; //calculo do valor excedente do saque
-                if (val_ret < 0){
+                if (val_ret < 0) {
                     this.saldo = 0;
-            }
-            val_ret = this.limite + val_ret;
-            this.limite = val_ret;
+                }
+                val_ret = this.limite + val_ret;
+                this.limite = val_ret;
                 System.out.println("Saque realizado com sucesso.");
-        }else {
-            System.out.println("Saldo insuficiente");
+            } else {
+                System.out.println("Saldo insuficiente");
+            }
         }
-    }
         //Javadocs
+
         /**
-         *
          * @param valor a ser depositado
          */
-    public void depositar( float valor){
-        this.saldo = this.saldo + valor;
+        public void depositar(float valor) {
+            this.saldo = this.saldo + valor;
         }
 
         //Javadocs
+
         /**
-         *
          * @return método Getter do atributo saldo
          */
-    public float getsaldo() {
-        return this.saldo + this.limite;
+        public float getsaldo() {
+            return this.saldo + this.limite;
+        }
+
+        @Override
+        public String toString() {
+            return "O Saldo da conta é " + this.getsaldo();
+        }
+
+        @Override //sobreposição de método
+        public boolean equals(Object obj) {
+            Conta verificar = (Conta) obj; //Cast é a conversão de objetos ou tipos primitivos de um tipo para outro tipo
+            return verificar.getsaldo() == this.getsaldo();
+
         }
     }
