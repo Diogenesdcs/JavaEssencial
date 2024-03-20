@@ -8,7 +8,7 @@ package br.com.geekuniversit.secao11;
 public class Programa27 {
     //instanciando classe cliente e  imprimindo via get
     public static void main(String[] args) {
-        Cliente cli1 = new Cliente("felicity Jones", "Rua Qualquer 123");
+        Cliente cli1 = new Cliente(10,"felicity Jones", "Rua Qualquer 123");
 
         System.out.println("Nome:" + cli1.getNome());
         System.out.println("Endereço:" + cli1.getEndereco());

@@ -2,8 +2,8 @@ package br.com.geekuniversit.secao11;
 
 public class Programa25 {
     public static void main(String[] args){
-        Cliente joao = new Cliente("joao da Silva", "Rua da Paz,  45"); //instância da classe Cliente.
-        Cliente maria = new Cliente("Maria da Silva", "Rua da Paz,  45");
+        Cliente joao = new Cliente(10,"joao da Silva", "Rua da Paz,  45"); //instância da classe Cliente.
+        Cliente maria = new Cliente(15,"Maria da Silva", "Rua da Paz,  45");
 
         Conta conta_joao = new Conta(1, 100.0f, 100.0f, joao);//instância da classe Conta
         Conta conta_maria = new Conta(1, 300.0f, 500.0f, maria);
