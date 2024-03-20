@@ -48,7 +48,9 @@ package br.com.geekuniversit.secao11;
          * @param valor a ser depositado
          */
         public void depositar(float valor) {
-            this.saldo = this.saldo + valor;
+            synchronized (this) {
+                this.saldo = this.saldo + valor;
+            }
         }
 
         //Javadocs
