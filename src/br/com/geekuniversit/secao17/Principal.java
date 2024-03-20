@@ -11,7 +11,7 @@ import br.com.geekuniversit.secao11.Conta;
 import java.util.Scanner;
 
 public class Principal {
-        static Cliente cliente = new Cliente("Angelina Jolie", "João bettega");
+        static Cliente cliente = new Cliente(10, "Angelina Jolie", "João bettega");
         static Conta conta = new Conta(1,200,300, cliente);
         static Scanner teclado = new Scanner(System.in);
 
